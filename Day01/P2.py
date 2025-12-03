@@ -1,6 +1,6 @@
 with open("Day01/input.txt", "r") as file:
     txt= file.read()
-with open("Day01/input.txt", "r") as file:
+with open("Day01/test_input.txt", "r") as file:
     test_txt= file.read()
 
 txt=txt.replace("R","").replace("L","-")
